@@ -1,0 +1,23 @@
+.container { 
+  height: 100%;
+  background-color: rgb(248, 234, 221);
+}
+
+.widgetWrapper {
+  border: 1px solid black;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: rgb(0, 255, 149);
+}
+
+.addButton {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.removeButton {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
