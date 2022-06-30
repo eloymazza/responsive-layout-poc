@@ -4,3 +4,16 @@
   align-items: flex-start;
   flex-direction: column;
 }
+
+.dashboardLinkContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+  padding: 0px 5px 5px 5px ;
+}
+
+.addDashboardBtn {
+  margin-top: 5px;
+  margin-left: 5px;
+}

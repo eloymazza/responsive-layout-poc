@@ -63,7 +63,9 @@ const DashboardPanel = () => {
         {items.map(({i}) => (
           <div key={i} className={classes.widgetWrapper}>
             <button className={classes.removeButton} onClick={() => removeItem(i)}>X</button>
-            <div className='widget'>{i}</div>
+            <div className='widget'>
+              {i}
+            </div>
           </div>
         ))}
         {/* <div key="a" className={classes.widgetWrapper}>  
