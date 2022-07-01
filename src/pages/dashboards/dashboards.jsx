@@ -32,6 +32,7 @@ const Dashboards = () => {
   return (
     <>
       <h1>Dashboards!</h1>
+      <p className={classes.warningParagraph}> Please remove your local storage data before start, old widgets may not be compatible with the new version!</p>
       <div className={classes.linksContainer}>
         {dashboads.map(({id, name}) => (
           <div key={id} className={classes.dashboardLinkContainer}>
