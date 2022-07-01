@@ -25,6 +25,7 @@ const Dashboards = () => {
   const removeDashboard = (id) => {
     const remainingDashboards = dashboads.filter(dashboard => dashboard.id !== id)
     localStorage.setItem('dashboards', JSON.stringify(remainingDashboards))
+    localStorage.removeItem('dashboard'+id)
     setDashboards(remainingDashboards)
   }
 
